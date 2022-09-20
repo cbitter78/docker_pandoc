@@ -1,7 +1,15 @@
 ---
 affiliation: github.com/cbitter78
 date: \today
-title: Pandoc Converter Default Template.  You should override this
+title: Pandoc Converter
+author:
+- Author One
+- Author Two
+keywords: [nothing, nothingness]
+abstract: |
+  This is the abstract. 
+
+  This is an example.  Both useful and not useful at the same time.
 documentclass: article
 fontsize: 12pt
 secnumdepth: 6
@@ -16,3 +24,7 @@ output:
   md_document:
     variant: inline_notes+citations
 ---
+
+# Header
+
+This is the default header.  You should override it with a volume mount
