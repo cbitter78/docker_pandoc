@@ -6,6 +6,12 @@ This is an example of a markdown file that is converted to pdf via pandoc
 
 Somthing to talk about.  Markdown is great because it limits our choices.
 
+- We like this
+- Kind of list
+- And this
+    - and this too
+
+
 ### Topic One.One
 
 Lets go deeper on Topic one

@@ -12,4 +12,5 @@ COPY template /template
 COPY data /data
 WORKDIR /data
 
-CMD pandoc -s -t markdown -w pdf -o recommendation.pdf /template/header.md *.md /template/footer.md
+COPY ./pandoc.sh /
+ENTRYPOINT ["/pandoc.sh"]
