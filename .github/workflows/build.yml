@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'main'
+env:
+  DOCKER_IMAGE: cbitter78/pandoc
 
 jobs:
   docker:
