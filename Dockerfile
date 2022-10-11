@@ -2,6 +2,9 @@
 
 FROM ubuntu
 LABEL maintainer='Charles Bitter <cbitter78+github@gmail.com>'
+LABEL org.opencontainers.image.source=https://github.com/cbitter78/docker_pandoc
+LABEL org.opencontainers.image.description="Pandoc Docker container to convert from markdown to pdf"
+LABEL org.opencontainers.image.licenses=MIT
 
 RUN apt-get -q update && DEBIAN_FRONTEND=noninteractive \
     apt-get install --assume-yes \
