@@ -5,7 +5,7 @@
 ## Running
 
 ```shell
-docker run --rm -ti --volume $PWD/data:/data --volume $PWD/template:/template hub.docker.com/cbitter78/pandoc:1.0.0-0
+docker run --rm -ti --volume $PWD/data:/data --volume $PWD/template:/template cbitter78/pandoc:latest
 ```
 
 ## Assumptions
@@ -21,5 +21,5 @@ The container will iterate over all the files in /data and make a PDF for each t
 If you want to just use pandoc any from a prompt override the entrypoint with `--entrypoint /bin/bash` like this
 
 ```shell
-docker run --rm -ti --entrypoint /bin/bash --volume $PWD/data:/data --volume $PWD/template:/template hub.docker.com/cbitter78/pandoc:1.0.0-0
+docker run --rm -ti --entrypoint /bin/bash --volume $PWD/data:/data --volume $PWD/template:/template cbitter78/pandoc:latest
 ```
