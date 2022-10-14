@@ -23,3 +23,4 @@ If you want to just use pandoc any from a prompt override the entrypoint with `-
 ```shell
 docker run --rm -ti --entrypoint /bin/bash --volume $PWD/data:/data --volume $PWD/template:/template cbitter78/pandoc:latest
 ```
+
