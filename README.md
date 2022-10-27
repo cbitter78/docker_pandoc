@@ -24,3 +24,11 @@ If you want to just use pandoc any from a prompt override the entrypoint with `-
 docker run --rm -ti --entrypoint /bin/bash --volume $PWD/data:/data --volume $PWD/template:/template cbitter78/pandoc:latest
 ```
 
+## PanDoc Notes
+
+[Pandoc-Tricks](https://github.com/jgm/pandoc/wiki/Pandoc-Tricks#left-aligning-tables)
+https://pandoc.org/MANUAL.html#pandocs-markdown
+
+https://pandoc.org/MANUAL.html#extension-raw_html
+https://pandoc.org/MANUAL.html#extension-inline_notes
+https://pandoc.org/MANUAL.html#extension-citations
